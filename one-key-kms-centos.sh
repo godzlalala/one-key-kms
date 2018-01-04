@@ -9,6 +9,7 @@ start(){
 yum update -y
 yum install gcc git make -y
 wget https://raw.githubusercontent.com/godzlalala/one-key-kms/master/kms.sh
+chmod +x kms.sh
 mkdir /usr/local/kms
 cd /usr/local/kms
 git clone https://github.com/Wind4/vlmcsd.git
@@ -29,6 +30,8 @@ echo "Addtionally, you may want to get a script to manage it."
 echo "In this case, you may download a script at the one-key-kms repository."
 echo "Thanks for your using!"
 echo "Dakkidaze <gioku@docomo.net.cn>"
+cd
+./kms.sh
 }
 echo "This script will automatically download and compile KMS Server program for you."
 echo "For more information, please visit https://github.com/Wind4/vlmcsd"
