@@ -9,6 +9,7 @@ start(){
 apt-get update -y
 apt-get install gcc git make -y
 wget https://raw.githubusercontent.com/godzlalala/one-key-kms/master/kms.sh
+chmod +x kms.sh
 mkdir /usr/local/kms
 cd /usr/local/kms
 git clone https://github.com/Wind4/vlmcsd.git
