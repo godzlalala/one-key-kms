@@ -30,6 +30,8 @@ echo "Addtionally, you may want to get a script to manage it."
 echo "In this case, you may download a script at the one-key-kms repository."
 echo "Thanks for your using!"
 echo "Dakkidaze <gioku@docomo.net.cn>"
+cd
+./kms.sh
 }
 echo "This script will automatically download and compile KMS Server program for you."
 echo "For more information, please visit https://github.com/Wind4/vlmcsd"
